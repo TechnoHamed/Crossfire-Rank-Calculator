@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a2e;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #16213e;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+input,
+select {
+    padding: 15px;
+    font-size: 1.2em;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #0f3460;
+    color: white;
+}
+
+input::placeholder {
+    color: #d9d9d9;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #00d4ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: #009fcb;
+}
+
+#result,
+#comparisonResult {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #0f3460;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: #00d4ff;
+}
+
+img {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+select {
+    appearance: none;
+    cursor: pointer;
+}
+
+/* ضبط التصميم المركزي للعناصر */
+.custom-exp-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+/* ضبط المسافة بين الحقل والتسمية */
+.custom-exp-group label {
+    margin-right: 10px;
+}
+
+
+select option[value="custom"] {
+    color: red;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
